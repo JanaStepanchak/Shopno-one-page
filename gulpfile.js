@@ -7,8 +7,7 @@ var gulp = require('gulp'),
     cssmin = require('gulp-minify-css'),
     concat = require('gulp-concat'),
     cleanCSS = require('gulp-clean-css'),
-    imagemin = require('gulp-imagemin'),
-    rimraf = require('rimraf');
+    imagemin = require('gulp-imagemin');
 
 gulp.task('sass', function () {
     gulp.src('./src/style/main.scss')
@@ -18,7 +17,8 @@ gulp.task('sass', function () {
         }))
         .pipe(sass())
         .pipe(prefixer())
-        .pipe( cleanCSS() )
+        .pipe(cleanCSS())
+        .pipe(cssmin())
         .pipe(gulp.dest('build/style'));
 });
 
