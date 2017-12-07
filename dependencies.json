@@ -1,7 +1,13 @@
 {
     "js": [
-        "./src/js/heder.js",
-        "./src/js/menu.js",
-        "./src/js/footer.js"
+     "./src/js/heder.js",
+     "./src/js/menu.js",
+     "./src/js/about-us.js",
+     "./src/js/works.js",
+     "./src/js/title.js",
+     "./src/js/team-part.js",
+     "./src/js/testimonial.js",
+     "./src/js/logo.js",
+     "./src/js/footer.js"
     ]
 }

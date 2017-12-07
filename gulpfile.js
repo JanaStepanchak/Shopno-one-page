@@ -9,6 +9,12 @@ var gulp = require('gulp'),
     cleanCSS = require('gulp-clean-css'),
     imagemin = require('gulp-imagemin');
 
+gulp.task('html', function () {
+    gulp.src('./src/templates/index.html')
+        .pipe(rigger())
+        .pipe(gulp.dest('build/'));
+});
+
 gulp.task('sass', function () {
     gulp.src('./src/style/main.scss')
         .pipe(sass({
@@ -20,6 +26,15 @@ gulp.task('sass', function () {
         .pipe(cleanCSS())
         .pipe(cssmin())
         .pipe(gulp.dest('build/style'));
+});
+
+gulp.task('js', function () {
+    gulp.src(require('./dependencies.json').js)
+        .pipe(sourcemaps.init())
+        .pipe(uglify())
+        .pipe(sourcemaps.write())
+        .pipe(concat('main.js'))
+        .pipe(gulp.dest('build/js/'));
 });
 
 gulp.task('fonts', function () {
@@ -36,26 +51,11 @@ gulp.task('img', function () {
         .pipe(gulp.dest('build/images'));
 });
 
-gulp.task('html', function () {
-    gulp.src('./src/templates/index.html')
-        .pipe(rigger())
-        .pipe(gulp.dest('build')); 
-});
-
-gulp.task('js', function() {
-    gulp.src( require('./dependencies.json').js )
-        .pipe(sourcemaps.init())
-        .pipe( uglify() )
-        .pipe(sourcemaps.write()) 
-        .pipe( concat('main.js') )
-        .pipe( gulp.dest('build/js/') );
-});
-
 gulp.task('watch', function () {
     gulp.watch('src/sass/**/*.scss', ['sass']);
-    gulp.watch('src/templates-html/**/*.html', ['html']);
+    gulp.watch('src/templates/**/*.html', ['html']);
     gulp.watch('src/js/**/*.js', ['js']);
-	
+
 });
 
-gulp.task('build', ['sass', 'html', 'fonts', 'js','img']);
+gulp.task('build', ['sass', 'html', 'fonts', 'js', 'img']);
