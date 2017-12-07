@@ -1,7 +1,7 @@
 {
     "js": [
-        "./src/js/heder.js"
-        , "./src/js/menu.js"
-        , "./src/js/footer.js"
+        "./src/js/heder.js",
+        "./src/js/menu.js",
+        "./src/js/footer.js"
     ]
 }
