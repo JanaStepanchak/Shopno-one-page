@@ -15,6 +15,15 @@ gulp.task('html', function () {
         .pipe(gulp.dest('build/'));
 });
 
+//gulp.task('css', function () {
+//    gulp.src('./src/style/main.css')
+//        .pipe(rigger())
+//        .pipe(prefixer())
+//        .pipe(cleanCSS())
+//        .pipe(cssmin())
+//        .pipe(gulp.dest('build/style'));
+//});
+
 gulp.task('sass', function () {
     gulp.src('./src/style/main.scss')
         .pipe(sass({
@@ -59,3 +68,4 @@ gulp.task('watch', function () {
 });
 
 gulp.task('build', ['sass', 'html', 'fonts', 'js', 'img']);
+//gulp.task('build', ['сss', 'html', 'fonts', 'js', 'img']);
