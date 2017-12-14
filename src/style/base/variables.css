@@ -1,7 +1,0 @@
-:root {
-    --body-background: #ccc;
-}
-
-body {
-  background-color: var(--body-background);
-}

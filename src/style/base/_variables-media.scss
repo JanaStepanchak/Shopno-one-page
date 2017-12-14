@@ -1,0 +1,17 @@
+header,
+section,
+footer {
+    width: 100%;
+    padding-bottom: 130px;
+    font-family:"Montserrat";
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background: var(--section-background) ;
+}
+
+
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    pading: 0 15px;
+    width: 1439px; } }

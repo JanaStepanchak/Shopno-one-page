@@ -1,5 +1,6 @@
 {
     "js": [
+     "./src/js/base.js",
      "./src/js/heder.js",
      "./src/js/menu.js",
      "./src/js/about-us.js",

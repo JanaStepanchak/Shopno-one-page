@@ -18,11 +18,11 @@ gulp.task('html', function () {
 //gulp.task('css', function () {
 //    gulp.src('./src/style/main.css')
 //        .pipe(rigger())
-//        .pipe(prefixer())
-//        .pipe(cleanCSS())
-//        .pipe(cssmin())
+////        .pipe(prefixer())
+//      .pipe(cssmin())
 //        .pipe(gulp.dest('build/style'));
 //});
+
 
 gulp.task('sass', function () {
     gulp.src('./src/style/main.scss')
@@ -61,7 +61,7 @@ gulp.task('img', function () {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('src/sass/**/*.scss', ['sass']);
+    gulp.watch('src/style/**/*.scss', ['sass']);
     gulp.watch('src/templates/**/*.html', ['html']);
     gulp.watch('src/js/**/*.js', ['js']);
 

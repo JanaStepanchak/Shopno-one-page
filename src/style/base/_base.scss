@@ -1,4 +1,47 @@
 body {
     margin: 0;
-    font-family: Montserrat, Raleway, Tahoma, Geneva, FontAwesome;
+    font-family: Montserrat,Merriweather, Raleway, Tahoma, Geneva, FontAwesome;
 }
+
+:root {
+    --body-background: #ffffff;
+    --section-background: #eff0f2;
+    --section-background-photo: #71f6eb;
+    --color-font-title-h2: rgba(0, 0, 0, 0.902);
+    --color-font-subtitle: rgba(0, 0, 0, 0.62);
+}
+
+
+
+
+.section-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+.section-title{
+margin: 125px 0;
+}
+
+
+.title-h2 {
+     font-size: 38px;
+    font-family: "Montserrat";
+    color: var(color-font-title-h2) ;
+    font-weight:bolder ;
+    text-transform: uppercase;
+    line-height: 0.737;
+    
+}
+
+.subtitle {font-size: 17px;
+    font-family: "Merriweather";
+    color: var(--color-font-subtitle) ;
+    text-transform: uppercase;
+    text-align: center;}
+
+
+
