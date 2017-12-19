@@ -7,18 +7,19 @@ body {
     --body-background: #ffffff;
     --section-background: #eff0f2;
     --section-background-photo: #71f6eb;
+    --slide-background-photo: #eeeff1;
     --color-font-title-h2: rgba(0, 0, 0, 0.902);
     --color-font-subtitle: rgba(0, 0, 0, 0.62);
 }
 
 
-//.wrapper{
-//    width: 80%;
+.wrapper{
+    width: 100%;
 //    display: flex;
 //    justify-content: center;
 //    align-content: center;
 //    flex-wrap: wrap;
-//}
+}
 
 .section-box {
     display: flex;
@@ -49,4 +50,3 @@ margin: 125px 0;
     color: var(--color-font-subtitle) ;
     text-transform: uppercase;
     text-align: center;}
-

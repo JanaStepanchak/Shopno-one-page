@@ -2,5 +2,8 @@
     margin: 1%;
     width: 30%;
     height: 445px;
-        background: var(--section-background-photo);
+     background: url(../images/photo1.jpg);
+    background-size: cover;
+      background-repeat: no-repeat;
+    background-position: center;
 }
