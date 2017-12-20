@@ -3,7 +3,6 @@ document.getElementById('radio1-about-us').style.background = 'rgb(113, 246, 235
 for (var i = 1; i < 4; i++) {
     document.querySelectorAll('.slid-about-us')[i].style.display = 'none';
 }
-
 document.getElementById('radio1-about-us').onclick = function () {
     this.style.background = 'rgb(113, 246, 235)';
     var j = 1;
@@ -15,7 +14,6 @@ document.getElementById('radio1-about-us').onclick = function () {
         }
     }
 };
-
 document.getElementById('radio2-about-us').onclick = function () {
     this.style.background = 'rgb(113, 246, 235)';
     var j = 2;
@@ -27,7 +25,6 @@ document.getElementById('radio2-about-us').onclick = function () {
         }
     }
 };
-
 document.getElementById('radio3-about-us').onclick = function () {
     this.style.background = 'rgb(113, 246, 235)';
     var j = 3;
@@ -39,7 +36,6 @@ document.getElementById('radio3-about-us').onclick = function () {
         }
     }
 };
-
 document.getElementById('radio4-about-us').onclick = function () {
     this.style.background = 'rgb(113, 246, 235)';
     var j = 4;

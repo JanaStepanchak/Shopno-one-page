@@ -1,9 +1,63 @@
 .small-team-blok {
     margin: 1%;
-    width: 30%;
-    height: 445px;
-     background: url(../images/photo1.jpg);
-    background-size: cover;
-      background-repeat: no-repeat;
-    background-position: center;
+    width: 31%;
+    height: 465px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.triangles {
+    width: 0px;
+    height: 0px;
+    border-bottom: 25px solid #6ff6eb;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: absolute;
+    top: -25px;
+    left: 4.5%;
+}
+
+.team-hover {
+    display:none;
+    width: 70%;
+    height: 40%;
+    margin-bottom: 17px;
+    padding: 10.5% 10%;
+    background: #6ff6eb;
+    position: relative;
+}
+
+.social {
+    font-size: 15px;
+    font-family: "FontAwesome";
+    color: rgba(0, 0, 0, 0.702);
+    line-height: 1.6;
+ letter-spacing: 10px;
+}
+
+.ui-content {
+    font-size: 16px;
+    font-family: "Raleway";
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.ui-name {
+    font-size: 20px;
+    font-family: "Merriweather";
+    color: rgba(39, 39, 39, 0.949);
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.ui-designer {
+    font-size: 15px;
+    font-family: "Merriweather";
+    color: #767070;
+    font-weight: normal;
+    font-style:italic;
+    line-height: 1.2;
 }
