@@ -4,7 +4,7 @@
      "./src/js/heder.js",
      "./src/js/menu.js",
      "./src/js/about-us.js",
-     "./src/js/works.js",
+     "./src/js/featured-works.js",
      "./src/js/title.js",
      "./src/js/small-team.js",
      "./src/js/testimonial.js",
