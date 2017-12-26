@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Montserrat,Merriweather, Raleway, Tahoma, Geneva, FontAwesome;
+    font-family: Montserrat, Merriweather, Raleway, Tahoma, Geneva, FontAwesome;
 }
 
 :root {
@@ -8,17 +8,13 @@ body {
     --section-background: #eff0f2;
     --section-background-photo: #71f6eb;
     --slide-background-photo: #eeeff1;
+    --slide-background: #eaebed;
     --color-font-title-h2: rgba(0, 0, 0, 0.902);
     --color-font-subtitle: rgba(0, 0, 0, 0.62);
 }
 
-
-.wrapper{
+.wrapper {
     width: 100%;
-//    display: flex;
-//    justify-content: center;
-//    align-content: center;
-//    flex-wrap: wrap;
 }
 
 .section-box {
@@ -28,25 +24,24 @@ body {
     flex-wrap: wrap;
 }
 
-
-.section-title{
+.section-title {
     width: 100%;
-margin: 125px 0;
+    margin: 125px 0;
 }
-
 
 .title-h2 {
-     font-size: 38px;
+    font-size: 38px;
     font-family: "Montserrat";
-    color: var(color-font-title-h2) ;
-    font-weight:bolder ;
+    color: var(color-font-title-h2);
+    font-weight: bolder;
     text-transform: uppercase;
     line-height: 0.737;
-    
 }
 
-.subtitle {font-size: 17px;
+.subtitle {
+    font-size: 17px;
     font-family: "Merriweather";
-    color: var(--color-font-subtitle) ;
+    color: var(--color-font-subtitle);
     text-transform: uppercase;
-    text-align: center;}
+    text-align: center;
+}
