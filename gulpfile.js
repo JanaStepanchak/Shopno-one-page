@@ -68,4 +68,3 @@ gulp.task('watch', function () {
 });
 
 gulp.task('build', ['sass', 'html', 'fonts', 'js', 'img']);
-//gulp.task('build', ['сss', 'html', 'fonts', 'js', 'img']);

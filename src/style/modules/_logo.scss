@@ -1,0 +1,26 @@
+.logo-box1,
+.logo-box2 {
+    width: 100%;
+    display: flex;
+}
+
+.logo-box1 {
+    justify-content: space-around;
+}
+
+.logo-box2 {
+    justify-content: space-between;
+}
+
+.logo-img {
+    width: 125px;;
+    height: 70px;
+    background : url(../images/RKO.svg);
+    background-position : center;
+//    background-size : cover;
+    background-repeat : no-repeat;
+}
+
+.logo {
+    background: #fff;
+}
