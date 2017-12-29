@@ -2,17 +2,22 @@ header,
 section,
 footer {
     width: 100%;
-    padding-bottom: 130px;
-    font-family:"Montserrat";
+    font-family: "Montserrat";
     display: flex;
     justify-content: center;
     align-content: center;
-    background: var(--section-background) ;
+    background: var(--section-background);
 }
 
-
-
+header,
+section {
+    padding-bottom:130px;
+}
+footer{
+background:var(--footer-background);}
 @media screen and (min-width: 1440px) {
-  .wrapper {
-//    pading: 0 15px;
-    width: 1439px; } }
+    .wrapper {
+        //    pading: 0 15px;
+        width: 1439px;
+    }
+}
