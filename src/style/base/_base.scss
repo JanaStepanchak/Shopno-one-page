@@ -20,6 +20,10 @@ body {
     width: 100%;
 }
 
+.wrapper-flex {
+    display: flex;
+}
+
 .section-box {
     display: flex;
     justify-content: space-around;
@@ -48,3 +52,4 @@ body {
     text-transform: uppercase;
     text-align: center;
 }
+

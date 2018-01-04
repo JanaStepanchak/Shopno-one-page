@@ -21,3 +21,18 @@ background:var(--footer-background);}
         width: 1439px;
     }
 }
+.footer{
+    padding-top: 130px;
+    background: url(../images/background.jpg);
+    background-size : cover;
+    background-repeat : no-repeat;
+    background-position  :center;
+}
+
+button{
+width: 245px;
+    height: 55px;
+    background:var(--section-background-photo) ;
+    margin: 40px 0;
+        border:0px;
+}
